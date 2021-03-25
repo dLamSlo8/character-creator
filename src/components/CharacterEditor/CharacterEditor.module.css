@@ -1,12 +1,15 @@
 .characterEditor {
+    position: relative;
   padding-top: 128px;
   padding-bottom: 64px;
 }
 
 .maxWidthWrapper {
+    position: relative;
 }
 
 .header {
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +27,21 @@
 }
 
 .characterWrapper {
+    position: fixed;
+    right: -3rem;
+    top: 6rem;
+    width: 43%;
+    min-height: 500px;
 }
 
 .controlColumn {
+    width: 50%;
+}
+
+.perspectiveBar {
+    position: fixed;
+    bottom: 0;
+    height: 40%;
+    width: 100%;
+    background-color: hsl(195deg, 20%, 86%);
 }
